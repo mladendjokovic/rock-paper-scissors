@@ -290,6 +290,9 @@ a[type="button"] {
         width: 90%;
         background-size: auto;
     }
+    .choices.active {
+        width: 90%;
+    }
     .choice, .choices.active .computer-choice {
         height: 150px;
         width: 150px;
