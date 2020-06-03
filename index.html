@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <!-- Score,Rules,You Picked,The House Picked,You Win,You Lose,Play Again -->
+
+  <div class="score-container">
+    <h1>
+      <span>ROCK</span>
+      <span>PAPER</span>
+      <span>SCISSORS</span>
+    </h1>
+    <div>
+      <h2>
+        SCORE
+        <span id="score"></span>
+      </h2>
+    </div>
+  </div>
+  <div class="choices">
+    <div class="paper choice">
+      <img src="./images/icon-paper.svg" alt="Paper choice illustration">
+    </div>
+    <div class="scissors choice">
+      <img src="./images/icon-scissors.svg" alt="Scissors choice illustration">
+    </div>
+    <div class="rock choice">
+      <img src="./images/icon-rock.svg" alt="Rock choice illustration">
+    </div>
+    <div class="result">
+    </div>
+    <div class="computer-choice">
+    </div>
+  </div>
+  <a type="button" href="#">RULES</a>
+  <div class="rules">
+    <div class="modal-overlay"></div>
+    <div class="modal-text">
+      <div class="modal-close">
+        <h3>Rules</h3> <img class="close" src="./images/icon-close.svg" alt="close">
+      </div>
+    <img src="./images/image-rules.svg" alt="rules">
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href=""> Mladen</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
